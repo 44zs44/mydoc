@@ -6,12 +6,6 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: 'Documentation', items: Nav_Docs_en(), activeMatch: '/en/skill/' },
   { text: 'Front-end story', items: Nav_Fe_en(), activeMatch: '/en/fe/' },
   { text: 'VPS User Guide', items: Nav_Vps_en(), activeMatch: '/en/VPS/' },
-  {
-    text: 'ESXI Installation Guide',
-    items: Nav_Esxi_en(),
-    activeMatch: '/en/ESXI/'
-  },
-  { text: 'Qinglong panel', items: Nav_Ql_en(), activeMatch: '/en/Docker/' },
 ]
 
 // 文档记录
@@ -60,31 +54,6 @@ export function Nav_Vps_en() {
         { text: 'Basic Settings', link: '/en/VPS/01' },
         { text: 'Advanced use', link: '/en/VPS/02' },
         { text: 'Build services', link: '/en/VPS/06' }
-      ]
-    }
-  ]
-}
-
-// ESXI安装指南
-export function Nav_Esxi_en() {
-  return [
-    {
-      items: [
-        { text: 'ESXi 8.0 Install', link: '/en/ESXI/ESXI-01' },
-        { text: 'ESXI — OpenWrt', link: '/en/ESXI/OP-01' }
-      ]
-    }
-  ]
-}
-
-// 青龙面板
-export function Nav_Ql_en() {
-  return [
-    {
-      items: [
-        { text: 'Install Qinglong panel', link: '/en/Docker/QL-01' },
-        { text: 'Get Jingdong Cookie', link: '/en/Docker/JD-01' },
-        { text: 'Get Alibaba cloud disk Cookie', link: '/en/Docker/AL-01' }
       ]
     }
   ]
