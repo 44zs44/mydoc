@@ -85,6 +85,12 @@ export function Sidebar_Web() {
                 {text: '手写Promise+方法', link: '04'},
                 {text: 'Promise后续', link: '06'},
                 {text: 'Event Loop', link: '07'},
+                {text: 'ES-14 种对象操作方法', link: '08'},
+                {text: 'this指向', link: '09'},
+                {text: '预编译', link: '10'},
+                {text: 'async与await', link: '11'},
+                {text: '文件系统', link: '12'},
+                {text: '高阶函数', link: '13'},
             ]
         },
         {
