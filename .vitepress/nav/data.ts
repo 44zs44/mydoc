@@ -28,6 +28,12 @@ export const NAV_DATA: NavData[] = [
     title: '优质机场推荐',
     items: [
       {
+        icon: "https://q4.qlogo.cn/g?b=qq&nk=2265100194@qq.com&s=3?d=retro",
+        title: 'Clash',
+        desc: '年费100,每个月300G流量',
+        link: 'https://ikuuu.me/user#'
+      },
+      {
         // icon: "https://theovan.wiki/yh.png",
         title: '一元机场',
         desc: '一元机场是 2022 年创立的机场，由于价格便宜到「离谱」，现今风头正盛，可以说现在的名气不亚于当年跑路的速蛙云。甚至有好事者创立了「一元机场」的百度贴吧。',
@@ -55,12 +61,6 @@ export const NAV_DATA: NavData[] = [
         title: 'Can I use',
         desc: '前端 API 兼容性查询',
         link: 'https://caniuse.com'
-      },
-      {
-        icon: 'https://tinypng.com/images/apple-touch-icon.png',
-        title: 'TinyPNG',
-        desc: '在线图片压缩工具',
-        link: 'https://tinypng.com'
       },
       {
         icon: 'https://devtool.tech/logo.svg',

@@ -169,7 +169,7 @@ const formatBadge = computed(() => {
     text-overflow: ellipsis;
     flex-grow: 1;
     margin: calc(var(--m-nav-box-gap) - 2px) 0 0;
-    line-height: 1.5;
+    line-height: 1.2;
     font-size: 12px;
     color: var(--vp-c-text-2);
   }

@@ -34,7 +34,7 @@ export default defineConfig({
   head,
 
   // 上次更新时间戳
-  lastUpdated: true,
+  // lastUpdated: true,
 
   // 开启后网址后缀无'html'
   cleanUrls: true,
