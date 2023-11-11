@@ -15,7 +15,7 @@ export function Sidebar_Skill() {
       // 分组名称
       text: '日常记录',
       // 下拉开关
-      // collapsed: true,
+      collapsed: false,
       // 分组路径
       base: '/skill/',
       // 分组页面
@@ -36,7 +36,7 @@ export function Sidebar_Skill() {
       // 分组名称
       text: '入门指南',
       // 下拉开关
-      // collapsed: true,
+      collapsed: false,
       // 分组路径
       base: '/skill/',
       // 分组页面
@@ -53,7 +53,7 @@ export function Sidebar_Skill() {
       // 分组名称
       text: '梅林操作文档',
       // 下拉开关
-      // collapsed: true,
+      collapsed: false,
       // 分组路径
       base: '/skill/',
       // 分组页面
