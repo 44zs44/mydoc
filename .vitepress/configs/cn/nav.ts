@@ -5,6 +5,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     {text: '导航', link: 'nav'},
     {text: '工具配置', items: Nav_Docs(), activeMatch: '/skill/'},
     {text: '前端', items: Nav_Web(), activeMatch: '/web/'},
+    {text: '后端', items: Nav_Service(), activeMatch: '/service/'},
 ]
 
 // 文档记录
@@ -37,5 +38,20 @@ export function Nav_Web() {
                 {text: 'Vite', link: '/web/Vite/01'},
             ]
         },
+    ]
+}
+
+export function Nav_Service() {
+    return [
+        {
+            items: [
+                {text: 'NestJS', link: '/service/NestJS/01'},
+                {text: 'MySQL', link: '/service/MySQL/01'},
+                {text: 'MongoDB', link: '/service/MongoDB/01'},
+                {text: 'Node', link: '/service/Node/01'},
+                {text: 'Docker', link: '/service/Docker/01'},
+                {text: 'Nginx', link: '/service/Nginx/01'},
+            ]
+        }
     ]
 }

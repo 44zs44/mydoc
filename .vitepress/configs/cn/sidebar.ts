@@ -2,10 +2,12 @@ import type {DefaultTheme} from 'vitepress'
 
 // 侧边栏配置
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-    // 文档记录
+    // 工具配置
     '/skill/': {base: '/skill/', items: Sidebar_Skill()},
-    // 文档记录
+    // 前端
     '/web/': {base: '/web/', items: Sidebar_Web()},
+    // 后端
+    '/service/': {base: '/service/', items: Sidebar_Service()},
 }
 
 // 文档记录
@@ -146,6 +148,59 @@ export function Sidebar_Web() {
             items: [
                 {text: 'Vite原理学习', link: '01'},
                 {text: '自动导入+动态组件', link: '02'},
+            ]
+        },
+    ]
+}
+
+export function Sidebar_Service() {
+    return [
+        {
+            text: 'Node',
+            collapsed: true,
+            base: '/service/Node/',
+            items: [
+                {text: 'Node', link: '01'},
+            ]
+        },
+        {
+            text: 'MongoDB',
+            collapsed: true,
+            base: '/service/MongoDB/',
+            items: [
+                {text: 'MongoDB', link: '01'},
+            ]
+        },
+        {
+            text: 'NestJS',
+            collapsed: true,
+            base: '/service/NestJS/',
+            items: [
+                {text: 'NestJS', link: '01'},
+            ]
+        },
+        {
+            text: 'MySQL',
+            collapsed: true,
+            base: '/service/MySQL/',
+            items: [
+                {text: 'MySQL', link: '01'},
+            ]
+        },
+        {
+            text: 'Docker',
+            collapsed: true,
+            base: '/service/Docker/',
+            items: [
+                {text: 'Docker', link: '01'},
+            ]
+        },
+        {
+            text: 'Nginx',
+            collapsed: true,
+            base: '/service/Nginx/',
+            items: [
+                {text: 'Nginx', link: '01'},
             ]
         },
     ]
