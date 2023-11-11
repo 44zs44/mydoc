@@ -11,10 +11,6 @@ hero:
     - theme: brand
       text: 前端导航
       link: /nav
-
-    - theme: brand
-      text: 文档记录
-      link: /skill/JL-01
 features:
   - title: 文档记录
     icon:

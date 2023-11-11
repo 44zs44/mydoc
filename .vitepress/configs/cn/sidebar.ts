@@ -49,34 +49,6 @@ export function Sidebar_Skill() {
         { text: 'PNPM', link: 'RM-06' }
       ]
     },
-    {
-      // 分组名称
-      text: '梅林操作文档',
-      // 下拉开关
-      collapsed: false,
-      // 分组路径
-      base: '/skill/',
-      // 分组页面
-      items: [
-        { text: '刷机需知', link: 'ML-01' },
-        {
-          text: '科学上网',
-          collapsed: true,
-          items: [
-            { text: '科学上网 - 安装', link: 'ML-02' },
-            { text: '科学上网 - 配置', link: 'ML-04' }
-          ]
-        },
-        {
-          text: 'Merlin Clash',
-          collapsed: true,
-          items: [
-            { text: 'Merlin Clash - 安装', link: 'ML-03' },
-            { text: 'Merlin Clash - 配置', link: 'ML-05' }
-          ]
-        }
-      ]
-    }
   ]
 }
 
