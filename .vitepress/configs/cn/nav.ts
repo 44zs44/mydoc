@@ -8,7 +8,6 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: 'VPS使用指南', items: Nav_Vps(), activeMatch: '/VPS/' },
   { text: 'ESXI安装指南', items: Nav_Esxi(), activeMatch: '/ESXI/' },
   { text: '青龙面板', items: Nav_Ql(), activeMatch: '/Docker/' },
-  { text: '我的网站', items: Nav_Zd() }
 ]
 
 // 文档记录
@@ -79,19 +78,6 @@ export function Nav_Ql() {
         { text: '安装青龙面板', link: '/Docker/QL-01' },
         { text: '获取京东Cookie', link: '/Docker/JD-01' },
         { text: '获取阿里云盘Cookie', link: '/Docker/AL-01' }
-      ]
-    }
-  ]
-}
-// 个人站点
-export function Nav_Zd() {
-  return [
-    {
-      items: [
-        { text: '流媒体森林', link: 'https://theovan.wiki/' },
-        { text: '玄学宝典', link: 'https://xx.theovan.xyz/' },
-        { text: 'ChatGPT', link: 'https://ai.theovan.xyz/' },
-        { text: '赞助我', link: 'https://github.com/sponsors/Theo-messi' }
       ]
     }
   ]

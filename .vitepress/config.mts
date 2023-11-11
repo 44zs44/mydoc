@@ -7,7 +7,7 @@ export default defineConfig({
   locales: locales.locales,
 
   // 站点名称
-  title: 'Theo',
+  title: 'Mydoc',
 
   //'force-dark'强制开启深色模式 false强制开启浅色模式
   // appearance: 'force-dark',
@@ -41,7 +41,7 @@ export default defineConfig({
 
   // 站点地图
   sitemap: {
-    hostname: 'https://theovan.xyz',
+    hostname: 'https://mydoc-psi.vercel.app/',
     transformItems(items) {
       return items.filter((item) => !item.url.includes('migration'))
     }

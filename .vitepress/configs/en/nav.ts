@@ -12,7 +12,6 @@ export const nav: DefaultTheme.Config['nav'] = [
     activeMatch: '/en/ESXI/'
   },
   { text: 'Qinglong panel', items: Nav_Ql_en(), activeMatch: '/en/Docker/' },
-  { text: 'my website', items: Nav_Zd_en() }
 ]
 
 // 文档记录
@@ -90,16 +89,4 @@ export function Nav_Ql_en() {
     }
   ]
 }
-// 个人站点
-export function Nav_Zd_en() {
-  return [
-    {
-      items: [
-        { text: '流媒体森林', link: 'https://theovan.wiki/' },
-        { text: '玄学宝典', link: 'https://xx.theovan.xyz/' },
-        { text: 'ChatGPT', link: 'https://ai.theovan.xyz/' },
-        { text: 'Sponsor', link: 'https://github.com/sponsors/Theo-messi' }
-      ]
-    }
-  ]
-}
+
