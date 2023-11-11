@@ -11,7 +11,6 @@ export default defineConfig({
 
   themeConfig: {
     // // logo
-    logo: '/avatar.png',
 
     // 社交链接
     socialLinks: [{ icon: 'github', link: 'https://github.com/44zs44' }],

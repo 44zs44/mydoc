@@ -12,17 +12,9 @@ hero:
       text: 前端导航
       link: /nav
 
-    - theme: alt
-      text: 前端物语
-      link: /fe/javascript/types
-
     - theme: brand
       text: 文档记录
       link: /skill/JL-01
-
-    - theme: sponsor
-      text: 赞助
-      link: https://github.com/sponsors/Theo-messi
 features:
   - title: 文档记录
     icon:
