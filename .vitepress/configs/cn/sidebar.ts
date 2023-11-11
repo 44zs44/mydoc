@@ -80,7 +80,7 @@ export function Sidebar_Web() {
             base: '/web/JavaScript/',
             items: [
                 {text: '闭包', link: '01'},
-                {text: 'DOM渲染树，解析与加载，回流与重绘', link: '02'},
+                {text: '渲染树回流与重绘', link: '02'},
                 {text: 'Promise', link: '03'},
                 {text: '手写Promise+方法', link: '04'},
                 {text: 'Promise后续', link: '06'},
@@ -91,6 +91,7 @@ export function Sidebar_Web() {
                 {text: 'async与await', link: '11'},
                 {text: '文件系统', link: '12'},
                 {text: '高阶函数', link: '13'},
+                {text: '原型和原型链', link: '14'},
             ]
         },
         {

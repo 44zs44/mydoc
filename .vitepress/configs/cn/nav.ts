@@ -3,7 +3,7 @@ import type {DefaultTheme} from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
     {text: '导航', link: 'nav'},
-    {text: '工具', items: Nav_Docs(), activeMatch: '/skill/'},
+    {text: '工具配置', items: Nav_Docs(), activeMatch: '/skill/'},
     {text: '前端物语', items: Nav_Fe(), activeMatch: '/fe/'},
     {text: '前端', items: Nav_Web(), activeMatch: '/web/'},
 ]
