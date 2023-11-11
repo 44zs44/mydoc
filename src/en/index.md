@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-titleTemplate: Theo
+titleTemplate: MyDoc
 hero:
   name: Note library
   text:
@@ -22,7 +22,6 @@ hero:
 
     - theme: sponsor
       text: sponsor
-      link: https://github.com/sponsors/Theo-messi
 features:
   - title: Documentation
     icon:

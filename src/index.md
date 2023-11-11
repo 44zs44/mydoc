@@ -1,7 +1,7 @@
 ---
 layout: home
 title: 首页
-titleTemplate: Theo
+titleTemplate: MyDoc
 hero:
   name: MyDoc By Vite&Vercel
   text: 前端程序员的个人文档
