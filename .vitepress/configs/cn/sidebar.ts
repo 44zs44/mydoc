@@ -124,7 +124,9 @@ export function Sidebar_Web() {
             text: 'React',
             collapsed: false,
             base: '/web/React/',
-            items: []
+            items: [
+                {text: '持续成长中', link: '01'},
+            ]
         },
         {
             text: '前端工程化',
