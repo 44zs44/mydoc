@@ -98,7 +98,11 @@ export function Sidebar_Web() {
             text: 'TypeScript',
             collapsed: false,
             base: '/web/TypeScript/',
-            items: []
+            items: [
+                {text: '基础知识', link: '01'},
+                {text: '进阶知识', link: '02'},
+                {text: '类型体操练习', link: '03'}
+            ]
         },
         {
             text: 'Vue',
