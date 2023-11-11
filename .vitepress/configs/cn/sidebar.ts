@@ -142,7 +142,10 @@ export function Sidebar_Web() {
             text: 'Vite',
             collapsed: false,
             base: '/web/Vite/',
-            items: []
+            items: [
+                {text: 'Vite原理学习', link: '01'},
+                {text: '自动导入+动态组件', link: '02'},
+            ]
         },
     ]
 }
