@@ -9,21 +9,25 @@ hero:
   image: /home.png
   actions:
     - theme: brand
-      text: 前端导航
+      text: 导航
       link: /nav
+    - theme: brand
+      text: 前端
+      link: /web/TypeScript/01
 features:
-  - title: 文档记录
+  - title: VitePress
     icon:
       src: https://vitejs.dev/logo-with-shadow.png
       width: 30
-    details: 日常记录
-    linkText: 文档记录
+    details: VitePress静态站点框架+Vercel托管 
+    link: https://github.com/vuejs/vitepress
+    linkText: VitePress
 
-  - title: 前端物语
+  - title: 前端
     icon:
       src: ./fe.png
       width: 30
-    details: 整理前端常用知识点 <small>(面试八股文)</small><br/>"如有异议按你理解为主"
-    link: /fe/javascript/types
+    details: 整理前端知识点"
+    link: /web/TypeScript/01
     linkText: 前端常用知识
 ---
