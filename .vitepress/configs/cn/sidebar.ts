@@ -132,7 +132,11 @@ export function Sidebar_Web() {
             text: '前端工程化',
             collapsed: false,
             base: '/web/engineering/',
-            items: []
+            items: [
+                {text: '掌握 package', link: '01'},
+                {text: '掌握 tsconfig', link: '02'},
+                {text: 'JS 模块化原理', link: '03'}
+            ]
         },
         {
             text: 'Vite',
