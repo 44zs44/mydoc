@@ -50,5 +50,6 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
-  }
+  },
+  ignoreDeadLinks: true
 })
