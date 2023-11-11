@@ -3,8 +3,9 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '导航', link: 'nav' },
+  { text: '工具', items: Nav_Docs(), activeMatch: '/skill/' },
   { text: '前端物语', items: Nav_Fe(), activeMatch: '/fe/' },
-  { text: '文档记录', items: Nav_Docs(), activeMatch: '/skill/' },
+  { text: '前端', items: Nav_Web(), activeMatch: '/web/' },
 ]
 
 // 文档记录
@@ -12,8 +13,8 @@ export function Nav_Docs() {
   return [
     {
       items: [
-        { text: '日常记录', link: '/skill/JL-11' },
-        { text: '入门指南', link: '/skill/RM-01' },
+        { text: '安装配置', link: '/skill/JL-01' },
+        { text: '工具指南', link: '/skill/RM-01' },
       ]
     }
   ]
@@ -38,5 +39,14 @@ export function Nav_Fe() {
         { text: '编程题', link: '/fe/coding/' }
       ]
     }
+  ]
+}
+export function Nav_Web() {
+  return [
+    {
+      items: [
+        { text: 'HTML', link: '/web/HTML/01' },
+      ]
+    },
   ]
 }

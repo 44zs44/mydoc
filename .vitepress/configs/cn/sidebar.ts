@@ -5,7 +5,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   // 前端物语
   '/fe/': { base: '/fe/', items: Sidebar_Fe() },
   // 文档记录
-  '/skill/': { base: '/skill/', items: Sidebar_Skill() }
+  '/skill/': { base: '/skill/', items: Sidebar_Skill() },
+  // 文档记录
+  '/web/': { base: '/web/', items: Sidebar_Web() },
 }
 
 // 文档记录
@@ -13,7 +15,7 @@ export function Sidebar_Skill() {
   return [
     {
       // 分组名称
-      text: '日常记录',
+      text: '安装配置',
       // 下拉开关
       collapsed: false,
       // 分组路径
@@ -34,7 +36,7 @@ export function Sidebar_Skill() {
     },
     {
       // 分组名称
-      text: '入门指南',
+      text: '工具指南',
       // 下拉开关
       collapsed: false,
       // 分组路径
@@ -52,6 +54,18 @@ export function Sidebar_Skill() {
   ]
 }
 
+export function Sidebar_Web() {
+  return [
+    {
+      text: 'HTML',
+      collapsed: false,
+      base: '/web/HTML/',
+      items: [
+        { text: 'HTML 理论知识点', link: '01' },
+      ]
+    },
+  ]
+}
 // 前端物语
 export function Sidebar_Fe() {
   return [
@@ -79,7 +93,9 @@ export function Sidebar_Fe() {
       // 分组路径
       base: '/fe/es6',
       // 分组页面
-      items: [{ text: 'ES6 常用知识点', link: '/' }]
+      items: [
+          { text: 'ES6 常用知识点', link: '/' }
+      ]
     },
     {
       // 分组名称
@@ -153,7 +169,9 @@ export function Sidebar_Fe() {
       // 分组路径
       base: '/fe/',
       // 分组页面
-      items: [{ text: '编程题', link: 'coding/' }]
+      items: [
+          { text: '编程题', link: 'coding/' }
+      ]
     }
   ]
 }
