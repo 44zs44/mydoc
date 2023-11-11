@@ -83,6 +83,8 @@ export function Sidebar_Web() {
                 {text: 'DOM渲染树，解析与加载，回流与重绘', link: '02'},
                 {text: 'Promise', link: '03'},
                 {text: '手写Promise+方法', link: '04'},
+                {text: 'Promise后续', link: '06'},
+                {text: 'Event Loop', link: '07'},
             ]
         },
         {
