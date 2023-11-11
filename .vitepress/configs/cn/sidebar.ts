@@ -108,7 +108,17 @@ export function Sidebar_Web() {
             text: 'Vue',
             collapsed: false,
             base: '/web/Vue/',
-            items: []
+            items: [
+                {text: '响应式系统实现', link: '01'},
+                {text: '数据劫持', link: '02'},
+                {text: 'Vue中的data为什么是函数', link: '03'},
+                {text: '踩坑经验', link: '04'},
+                {text: '搭建一套规范的Vue3.x', link: '05'},
+                {text: '代码规范', link: '06'},
+                {text: '提交规范', link: '07'},
+                {text: '单元测试', link: '08'},
+                {text: '自动部署', link: '09'},
+            ]
         },
         {
             text: 'React',
