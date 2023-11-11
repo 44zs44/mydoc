@@ -5,6 +5,7 @@
 ## 构造函数与实例
 
 使用 `new` 运算符与构造函数是常用的创建对象的方式之一。构造函数是一种特殊的函数，用于创建新的对象实例，当我们使用 `new` 运算符调用一个函数时，它就成为了构造函数，因为它被用来构造一个新的对象实例
+<iframe src="https://stackblitz.com/edit/prototype-pattern-dog-demo?devToolsHeight=33&embed=1&file=index.js"></iframe>
 
 ```js
 // 构造函数

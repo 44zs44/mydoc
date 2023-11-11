@@ -7,3 +7,9 @@
 .medium-zoom-image {
   z-index: 21;
 }
+
+iframe {
+  width: 100%;  /* 或指定一个具体的宽度值 */
+  height: 500px; /* 或指定一个具体的高度值 */
+  border: none;
+}

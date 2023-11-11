@@ -13,7 +13,7 @@ export function Nav_Docs() {
   return [
     {
       items: [
-        { text: '日常记录', link: '/skill/JL-01' },
+        { text: '日常记录', link: '/skill/JL-11' },
         { text: '入门指南', link: '/skill/RM-01' },
         { text: '梅林操作文档', link: '/skill/ML-01' }
       ]
