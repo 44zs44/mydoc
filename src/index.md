@@ -30,12 +30,4 @@ features:
     details: 整理前端常用知识点 <small>(面试八股文)</small><br/>"如有异议按你理解为主"
     link: /fe/javascript/types
     linkText: 前端常用知识
-
-  - title: VPS使用指南
-    icon:
-      src: ./VPS.png
-      width: 40
-    details: 基础设置/进阶使用/搭建服务
-    link: /VPS/01
-    linkText: VPS使用指南
 ---

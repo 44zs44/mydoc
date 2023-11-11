@@ -5,7 +5,6 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: 'Front-end Nav', link: '/en/nav' },
   { text: 'Documentation', items: Nav_Docs_en(), activeMatch: '/en/skill/' },
   { text: 'Front-end story', items: Nav_Fe_en(), activeMatch: '/en/fe/' },
-  { text: 'VPS User Guide', items: Nav_Vps_en(), activeMatch: '/en/VPS/' },
 ]
 
 // 文档记录
@@ -45,17 +44,3 @@ export function Nav_Fe_en() {
     }
   ]
 }
-
-// VPS使用指南
-export function Nav_Vps_en() {
-  return [
-    {
-      items: [
-        { text: 'Basic Settings', link: '/en/VPS/01' },
-        { text: 'Advanced use', link: '/en/VPS/02' },
-        { text: 'Build services', link: '/en/VPS/06' }
-      ]
-    }
-  ]
-}
-
