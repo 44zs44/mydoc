@@ -135,7 +135,10 @@ export function Sidebar_Web() {
             items: [
                 {text: '掌握 package', link: '01'},
                 {text: '掌握 tsconfig', link: '02'},
-                {text: 'JS 模块化原理', link: '03'}
+                {text: 'JS 模块化原理', link: '03'},
+                {text: '模块化', link: '04'},
+                {text: '前端渲染', link: '05'},
+
             ]
         },
         {
