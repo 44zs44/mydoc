@@ -48,6 +48,16 @@ export function Nav_Web() {
             items: [
                 {text: 'HTML', link: '/web/HTML/01'},
                 {text: 'CSS', link: '/web/CSS/01'},
+                {text: 'JavaScript', link: '/web/JavaScript/01'},
+                {text: 'TypeScript', link: '/web/TypeScript/01'},
+            ]
+        },
+        {
+            items: [
+                {text: 'Vue', link: '/web/Vue/01'},
+                {text: 'React', link: '/web/React/01'},
+                {text: '前端工程化', link: '/web/engineering/01'},
+                {text: 'Vite', link: '/web/Vite/01'},
             ]
         },
     ]

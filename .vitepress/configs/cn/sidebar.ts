@@ -58,7 +58,7 @@ export function Sidebar_Web() {
     return [
         {
             text: 'HTML',
-            collapsed: false,
+            collapsed: true,
             base: '/web/HTML/',
             items: [
                 {text: 'HTML 理论知识点', link: '01'},
@@ -66,7 +66,7 @@ export function Sidebar_Web() {
         },
         {
             text: 'CSS',
-            collapsed: false,
+            collapsed: true,
             base: '/web/CSS/',
             items: [
                 {text: 'Grid布局学习笔记', link: '01'},
@@ -76,7 +76,7 @@ export function Sidebar_Web() {
         },
         {
             text: 'JavaScript',
-            collapsed: false,
+            collapsed: true,
             base: '/web/JavaScript/',
             items: [
                 {text: '闭包', link: '01'},
@@ -96,7 +96,7 @@ export function Sidebar_Web() {
         },
         {
             text: 'TypeScript',
-            collapsed: false,
+            collapsed: true,
             base: '/web/TypeScript/',
             items: [
                 {text: '基础知识', link: '01'},
@@ -106,7 +106,7 @@ export function Sidebar_Web() {
         },
         {
             text: 'Vue',
-            collapsed: false,
+            collapsed: true,
             base: '/web/Vue/',
             items: [
                 {text: '响应式系统实现', link: '01'},
@@ -122,7 +122,7 @@ export function Sidebar_Web() {
         },
         {
             text: 'React',
-            collapsed: false,
+            collapsed: true,
             base: '/web/React/',
             items: [
                 {text: '持续成长中', link: '01'},
@@ -130,7 +130,7 @@ export function Sidebar_Web() {
         },
         {
             text: '前端工程化',
-            collapsed: false,
+            collapsed: true,
             base: '/web/engineering/',
             items: [
                 {text: '掌握 package', link: '01'},
@@ -140,7 +140,7 @@ export function Sidebar_Web() {
         },
         {
             text: 'Vite',
-            collapsed: false,
+            collapsed: true,
             base: '/web/Vite/',
             items: [
                 {text: 'Vite原理学习', link: '01'},
