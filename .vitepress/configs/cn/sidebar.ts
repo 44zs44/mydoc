@@ -155,53 +155,11 @@ export function Sidebar_Web() {
 
 export function Sidebar_Service() {
     return [
-        {
-            text: 'Node',
-            collapsed: true,
-            base: '/service/Node/',
-            items: [
-                {text: 'Node', link: '01'},
-            ]
-        },
-        {
-            text: 'MongoDB',
-            collapsed: true,
-            base: '/service/MongoDB/',
-            items: [
-                {text: 'MongoDB', link: '01'},
-            ]
-        },
-        {
-            text: 'NestJS',
-            collapsed: true,
-            base: '/service/NestJS/',
-            items: [
-                {text: 'NestJS', link: '01'},
-            ]
-        },
-        {
-            text: 'MySQL',
-            collapsed: true,
-            base: '/service/MySQL/',
-            items: [
-                {text: 'MySQL', link: '01'},
-            ]
-        },
-        {
-            text: 'Docker',
-            collapsed: true,
-            base: '/service/Docker/',
-            items: [
-                {text: 'Docker', link: '01'},
-            ]
-        },
-        {
-            text: 'Nginx',
-            collapsed: true,
-            base: '/service/Nginx/',
-            items: [
-                {text: 'Nginx', link: '01'},
-            ]
-        },
+        {base: '/service/Node/', text: 'Node', link: '01'},
+        {base: '/service/MongoDB/', text: 'MongoDB', link: '01',},
+        {base: '/service/NestJS/', text: 'NestJS', link: '01',},
+        {base: '/service/MySQL/', text: 'MySQL', link: '01',},
+        {base: '/service/Docker/', text: 'Docker', link: '01',},
+        {base: '/service/Nginx/', text: 'Nginx', link: '01',},
     ]
 }
