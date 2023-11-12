@@ -5,7 +5,7 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 
 export const head: HeadConfig[] = [
   // 设置图标
-  ['link', { rel: 'icon', href: 'https://img1.imgtp.com/2023/11/12/LYgSfJEj.jpg' }],
+  ['link', { rel: 'icon', href: 'https://img1.imgtp.com/2023/11/12/Y81TyP9u.jpg' }],
   // 设置主题颜色
   ['meta', { name: 'theme-color', content: '#5f67ee' }],
   // 设置og类型
@@ -17,7 +17,7 @@ export const head: HeadConfig[] = [
   // 设置og站点名称
   ['meta', { name: 'og:site_name', content: 'MyDoc' }],
   // 设置og图片
-  ['meta', { name: 'og:image', content: 'https://img1.imgtp.com/2023/11/12/LYgSfJEj.jpg' }],
+  ['meta', { name: 'og:image', content: 'https://img1.imgtp.com/2023/11/12/Y81TyP9u.jpg' }],
   // 设置google adsense账号
   [
     'meta',
