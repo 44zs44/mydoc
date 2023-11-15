@@ -122,7 +122,7 @@ export function Sidebar_Web() {
       text: 'React',
       collapsed: true,
       base: '/web/React/',
-      items: [{ text: '持续成长中', link: '01' }]
+      items: [{ text: 'React常用Hook', link: '01' }]
     },
     {
       text: '前端工程化',
