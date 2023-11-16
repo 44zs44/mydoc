@@ -35,7 +35,8 @@ export function Nav_Web() {
         { text: 'Vue', link: '/web/Vue/01' },
         { text: 'React', link: '/web/React/01' },
         { text: '前端工程化', link: '/web/engineering/01' },
-        { text: 'Vite', link: '/web/Vite/01-4' }
+        { text: 'Vite', link: '/web/Vite/01-4' },
+        { text: '杂七杂八', link: '/web/Other/01' }
       ]
     }
   ]
