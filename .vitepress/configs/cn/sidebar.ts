@@ -157,6 +157,17 @@ export function Sidebar_Web() {
           items: [{ text: '自动导入+动态组件', link: '02-1' }]
         }
       ]
+    },
+    {
+      text: '其他',
+      collapsed: true,
+      base: '/web/Other/',
+      items: [
+        {
+          text: '模块化相关',
+          items: [{ text: '组件引入解析流程', link: '01' }]
+        }
+      ]
     }
   ]
 }
