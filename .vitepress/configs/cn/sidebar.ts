@@ -124,7 +124,7 @@ export function Sidebar_Web() {
       base: '/web/React/',
       items: [
         { text: 'React常用Hook', link: '01' },
-        { text: '函数组件玩转state, props, context', link: '02' },
+        { text: '函数组件玩转state, props, context', link: '02' }
       ]
     },
     {
@@ -152,7 +152,8 @@ export function Sidebar_Web() {
             { text: '构建流程', link: '01-3' },
             { text: '与传统构建工具的比较', link: '01-4' },
             { text: '配置与使用', link: '01-5' },
-            { text: '问题与解决方案', link: '01-6' }
+            { text: '问题与解决方案', link: '01-6' },
+            { text: 'Vite5', link: 'Vite5' }
           ]
         },
         {
