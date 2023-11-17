@@ -23,6 +23,8 @@ iframe {
   margin-right: 10px !important;
 }
 
-.content-container .main {
-  width: 800px;
+@media (min-width: 1280px) {
+  .content-container .main {
+    width: 800px;
+  }
 }
