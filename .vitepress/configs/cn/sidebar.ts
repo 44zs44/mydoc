@@ -124,7 +124,13 @@ export function Sidebar_Web() {
       base: '/web/React/',
       items: [
         { text: 'React常用Hook', link: '01' },
-        { text: '函数组件玩转state, props, context', link: '02' }
+        { text: '函数组件玩转state, props, context', link: '02' },
+        {
+          text: 'React基础小知识',
+          items: [
+              { text: 'string类型的refs效率不高', link: '03-1' }
+          ]
+        }
       ]
     },
     {
