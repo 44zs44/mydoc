@@ -1,5 +1,6 @@
 // .vitepress/theme/index.ts */
 import { h, watch, onMounted, nextTick } from 'vue'
+// @ts-ignore
 import { useData, EnhanceAppContext, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import mediumZoom from 'medium-zoom'
