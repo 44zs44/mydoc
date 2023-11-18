@@ -130,6 +130,7 @@ export function Sidebar_Web() {
           items: [
             { text: 'string类型的refs效率不高', link: '03-1' },
             { text: '函数组件相比于类组件劣势', link: '03-2' },
+            { text: '类组件和函数组件特点', link: '03-3' },
           ]
         },
         { text: 'React组件生命周期', link: '04' },
