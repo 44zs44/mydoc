@@ -130,7 +130,8 @@ export function Sidebar_Web() {
           items: [
               { text: 'string类型的refs效率不高', link: '03-1' }
           ]
-        }
+        },
+        { text: 'React组件生命周期', link: '04' },
       ]
     },
     {
