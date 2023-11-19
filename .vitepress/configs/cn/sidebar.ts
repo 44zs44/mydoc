@@ -134,6 +134,7 @@ export function Sidebar_Web() {
           ]
         },
         { text: 'React组件生命周期', link: '04' },
+        { text: 'TSX常见用法', link: '05' },
       ]
     },
     {
