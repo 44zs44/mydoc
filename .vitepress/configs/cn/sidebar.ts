@@ -115,7 +115,11 @@ export function Sidebar_Web() {
         { text: '代码规范', link: '06' },
         { text: '提交规范', link: '07' },
         { text: '单元测试', link: '08' },
-        { text: '自动部署', link: '09' }
+        { text: '自动部署', link: '09' },
+        {
+          text: 'Vue小tips',
+          items: [{ text: 'vue组件@hook:xxx事件', link: '10-1' }]
+        }
       ]
     },
     {
@@ -130,12 +134,12 @@ export function Sidebar_Web() {
           items: [
             { text: 'string类型的refs效率不高', link: '03-1' },
             { text: '函数组件相比于类组件劣势', link: '03-2' },
-            { text: '类组件和函数组件特点', link: '03-3' },
+            { text: '类组件和函数组件特点', link: '03-3' }
           ]
         },
         { text: 'React组件生命周期', link: '04' },
         { text: 'TSX常见用法', link: '05' },
-        { text: 'TSX题目', link: '06' },
+        { text: 'TSX题目', link: '06' }
       ]
     },
     {
