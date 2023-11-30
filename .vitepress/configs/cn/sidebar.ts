@@ -139,7 +139,8 @@ export function Sidebar_Web() {
         },
         { text: 'React组件生命周期', link: '04' },
         { text: 'TSX常见用法', link: '05' },
-        { text: 'TSX题目', link: '06' }
+        { text: 'TSX题目', link: '06' },
+        { text: 'Hook和Fiber', link: '07' },
       ]
     },
     {
