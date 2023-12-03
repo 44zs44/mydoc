@@ -186,7 +186,8 @@ export function Sidebar_Web() {
         {
           text: '模块化相关',
           items: [{ text: '组件引入解析流程', link: '01' }]
-        }
+        },
+        {text: "文档注释", link: "02"},
       ]
     }
   ]
