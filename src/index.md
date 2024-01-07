@@ -17,6 +17,9 @@ hero:
     - theme: brand
       text: 后端
       link: /service/NestJS/01
+    - theme: brand
+      text: trpc-Go
+      link: /skill/RM-02
 features:
   - title: VitePress
     icon:
