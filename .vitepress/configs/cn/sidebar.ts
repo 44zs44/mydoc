@@ -48,7 +48,8 @@ export function Sidebar_Skill() {
         { text: 'Docker', link: 'RM-03' },
         { text: 'Linux', link: 'RM-04' },
         { text: 'Markdown', link: 'RM-05' },
-        { text: 'PNPM', link: 'RM-06' }
+        { text: 'PNPM', link: 'RM-06' },
+        { text: 'trpc-cmdline', link: 'trpc-cmdline' },
       ]
     }
   ]
