@@ -49,7 +49,7 @@ export function Sidebar_Skill() {
         { text: 'Linux', link: 'RM-04' },
         { text: 'Markdown', link: 'RM-05' },
         { text: 'PNPM', link: 'RM-06' },
-        { text: 'trpc-cmdline', link: 'trpc-cmdline' },
+        { text: 'trpc-cmdline', link: 'trpc-cmdline' }
       ]
     }
   ]
@@ -109,6 +109,7 @@ export function Sidebar_Web() {
       base: '/web/Vue/',
       items: [
         { text: '响应式系统实现', link: '01' },
+        { text: '响应式系统相关数据结构', link: '11' },
         { text: '数据劫持', link: '02' },
         { text: 'Vue中的data为什么是函数', link: '03' },
         { text: '踩坑经验', link: '04' },
@@ -141,7 +142,7 @@ export function Sidebar_Web() {
         { text: 'React组件生命周期', link: '04' },
         { text: 'TSX常见用法', link: '05' },
         { text: 'TSX题目', link: '06' },
-        { text: 'Hook和Fiber', link: '07' },
+        { text: 'Hook和Fiber', link: '07' }
       ]
     },
     {
@@ -188,7 +189,7 @@ export function Sidebar_Web() {
           text: '模块化相关',
           items: [{ text: '组件引入解析流程', link: '01' }]
         },
-        {text: "文档注释", link: "02"},
+        { text: '文档注释', link: '02' }
       ]
     }
   ]
