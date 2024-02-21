@@ -90,7 +90,8 @@ export function Sidebar_Web() {
         { text: 'async与await', link: '11' },
         { text: '文件系统', link: '12' },
         { text: '高阶函数', link: '13' },
-        { text: '原型和原型链', link: '14' }
+        { text: '原型和原型链', link: '14' },
+        { text: 'WeakMap和Map', link: '15' }
       ]
     },
     {
