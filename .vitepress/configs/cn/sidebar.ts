@@ -70,7 +70,8 @@ export function Sidebar_Web() {
       items: [
         { text: 'Grid布局学习笔记', link: '01' },
         { text: '常用代码段', link: '02' },
-        { text: '揭秘读书摘要', link: '03' }
+        { text: '揭秘读书摘要', link: '03' },
+        { text: '视觉格式化模型和属性计算过程', link: '04' }
       ]
     },
     {
