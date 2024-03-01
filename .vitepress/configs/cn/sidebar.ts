@@ -68,9 +68,9 @@ export function Sidebar_Web() {
       collapsed: true,
       base: '/web/CSS/',
       items: [
-        { text: 'Grid布局学习笔记', link: '01' },
+        { text: 'Grid', link: '01' },
         { text: '常用代码段', link: '02' },
-        { text: '揭秘读书摘要', link: '03' },
+        { text: 'CSS特效', link: '03' },
         { text: '视觉格式化模型和属性计算过程', link: '04' }
       ]
     },
@@ -179,6 +179,17 @@ export function Sidebar_Web() {
         {
           text: 'Vite运用记录',
           items: [{ text: '自动导入+动态组件', link: '02-1' }]
+        }
+      ]
+    },
+    {
+      text: 'Vitest',
+      collapsed: true,
+      base: '/web/Vitest/',
+      items: [
+        {
+          text: '单测的重要性',
+          link: '01'
         }
       ]
     },
