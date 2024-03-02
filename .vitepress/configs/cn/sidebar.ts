@@ -71,7 +71,8 @@ export function Sidebar_Web() {
         { text: 'Grid', link: '01' },
         { text: '常用代码段', link: '02' },
         { text: 'CSS特效', link: '03' },
-        { text: '视觉格式化模型和属性计算过程', link: '04' }
+        { text: '视觉格式化模型和属性计算过程', link: '04' },
+        { text: '媒体查询', link: '05' },
       ]
     },
     {
